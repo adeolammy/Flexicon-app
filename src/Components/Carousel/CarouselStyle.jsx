@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Row } from '../../globalStyles';
+import { Row } from '../../globalStyle';
 import Slider from 'react-slick';
 
 export const CarouselImage = styled.img`
@@ -20,7 +20,7 @@ export const ImageWrapper = styled.div`
 	outline: none;
 	height: 430px;
 	@media screen and (min-width: 440px) {
-		border: 1px solid #bebebe;
+	border: 1px solid #bebebe;
 	}
 `;
 

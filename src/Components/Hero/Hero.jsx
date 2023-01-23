@@ -10,7 +10,7 @@ const Hero = () => {
           <HeroVideo src="./assests/hero.mp4"/>
           <Container>
               <MainHeading>Your data is secure with us</MainHeading>
-              <HeroText>We provide the best security systems for clients all over the world</HeroText>
+              <HeroText>We handle all areas of software development, including analysis, architecture, design, programming, testing, deployment, and continued maintenance. Our goal is to establish competitive advantages through information technology as well.</HeroText>
               <ButtonWrapper>
                   <Link to="signup">
                     <Button>Get Started</Button>

@@ -9,14 +9,14 @@ const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [
 	{
-		name: 'Best Security',
-		description: 'We offer the best data security to our clients, which makes us stand out',
+		name: 'Mobile Apps / Best Security',
+		description: ' Design and development of mobile applications --Native app development Cross-platform app development --Mobile backend development --Mobile apps UI/UX design --We offer the best data security to our clients, which makes us stand out',
 		icon: iconStyle(BsFillShieldLockFill),
 		imgClass: 'one',
 	},
 	{
-		name: 'Ease of Use',
-		description: 'Our system is easy to use and integrate',
+		name: 'Consulting services',
+		description: 'in the development of modern mobile solutions.  - Technical analysis and project evaluation  - Research and development for a pilot project - Development of the architecture of the future product  - We will check the product concept is viable, workable and usable.',
 		icon: iconStyle(IoIosOptions),
 		imgClass: 'two',
 	},
@@ -39,9 +39,8 @@ export const featuresData = [
 		imgClass: 'five',
 	},
 	{
-		name: 'Scalable',
-		description:
-			'Our servers are located all over the world, therefore improving scalability and speed ',
+		name: 'MVP for a Startup',
+		description: 'Development of the first version of a startup app  - Testing product hypotheses with real data  - Identify trends that can be used in production  - Prioritization important and identifying unclaimed features  - Collect user base before full-scale launch ',
 		icon: iconStyle(AiOutlineCloudUpload),
 		imgClass: 'six',
 	},

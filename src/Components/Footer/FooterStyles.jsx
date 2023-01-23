@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { Column, Row } from '../../globalStyles';
+import { Column, Row } from '../../globalStyle';
 
 export const FooterContainer = styled.div`
 	background-color: #101522;

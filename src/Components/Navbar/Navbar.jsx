@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaRProject, FaTimes } from 'react-icons/fa';
+import {  FaTimes } from 'react-icons/fa';
 import { CgMenuRight } from 'react-icons/cg';
 import { IconContext } from 'react-icons';
 import {
@@ -11,7 +11,7 @@ import {
 	NavMenu,
 	NavLinks,
 	NavItem,
-} from './NavbarStyles.js';
+} from './NavbarStyle';
 import { useLocation, useHistory } from 'react-router-dom';
 import { data } from '../../data/NavbarData';
 
@@ -47,8 +47,8 @@ const Navbar = () => {
 			<Nav>
 				<NavbarContainer>
 					<NavLogo to="/">
-						<NavIcon src="./assets/logo.png" alt="logo" />
-						Delta
+						<NavIcon src="./assests/logo.png" alt="logo" />
+						Flexicon
 					</NavLogo>
 					<MobileIcon onClick={handleClick}>
 						{show ? <FaTimes /> : <CgMenuRight />}

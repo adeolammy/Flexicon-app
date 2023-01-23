@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Container, Section } from '../../globalStyles';
+import { Container, Section } from '../../globalStyle';
 import {
 	ContentRow,
 	TextWrapper,
@@ -10,7 +10,7 @@ import {
 	ImgWrapper,
 	Img,
 	ContentColumn,
-} from './ContentStyles.js';
+} from './ContentStyle.jsx';
 
 import { useInView } from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';

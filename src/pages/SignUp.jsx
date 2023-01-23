@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Form from '../Components/Form/Form';
 
 const SignUp = () => {
   return (
     <div>
-      SignUp
+      <Form/>
     </div>
   )
 }

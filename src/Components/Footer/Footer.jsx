@@ -13,7 +13,7 @@ import {
 	FooterGrid,
 } from './FooterStyles';
 import { footerData, footerSocialData } from '../../data/FooterData';
-import { Row, Section } from '../../globalStyles';
+import { Row, Section } from '../../globalStyle';
 
 function Footer() {
 	return (
@@ -22,11 +22,11 @@ function Footer() {
 				<FooterGrid justify="space-between">
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
-							<SocialIcon src="./assets/logo.png" />
-							Delta
+							<SocialIcon src="./assests/logo.png" />
+							Flexicon Tech
 						</FooterLogo>
 						<FooterAddress>
-							69 Street, Delta Building, US Road, Los Angeles 123
+							324 Funsho William Avenue, Ojuelegba Lagos
 						</FooterAddress>
 
 						<Row align="center" margin="auto  0 0 0" gap="1rem">
@@ -53,7 +53,7 @@ function Footer() {
 						</FooterLinkItems>
 					))}
 				</FooterGrid>
-				<FooterRights>Delta © 2021</FooterRights>
+				<FooterRights>Flexicon Tech © 2022</FooterRights>
 			</FooterWrapper>
 		</Section>
 	);
