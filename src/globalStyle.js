@@ -5,8 +5,8 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  }
+ font-family: 'Libre Baskerville', serif , Bigelow Rules, cursive;
+ }
 `;
 
 export const Container = styled.div`
@@ -20,12 +20,27 @@ export const Container = styled.div`
 	}
 `;
 export const MainHeading = styled.h1`
-	font-size: clamp(2.3rem, 6vw, 4.5rem);
+	font-size: clamp(1.3rem, 4vw, 3rem);
 	margin-bottom: 2rem;
 	color: ${({ inverse }) => (inverse ? '$403ae3' : '#fff')};
-	width: 100%;
+	width: 50%;
 	letter-spacing: 4px;
 	text-align: center;
+	color: black;
+
+	@media screen and (max-width: 568px) {
+		font-size: 1.5rem;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+		margin-top: -2.9rem;
+	
+	}
+	@media screen and (max-width: 968px) {
+		font-size: 1.7rem;
+		margin-top: -3.1rem;
+	
+	}
 `;
 
 export const Heading = styled.h2`
@@ -105,15 +120,16 @@ export const Button = styled.button`
 	white-space: nowrap;
 	padding: 10px 20px;
 	font-size: 16px;
-	color: #fff;
+	color: black;
 	outline: none;
-	border: 2px solid #fff;
+	border: 2px solid black;
 	cursor: pointer;
 	overflow: hidden;
 	position: relative;
+		z-index: 1;
     
 	&:before {
-		background: #fff;
+		background: lightgray;
 		content: '';
 		position: absolute;
 		top: 50%;
@@ -129,7 +145,11 @@ export const Button = styled.button`
 		height: 500%;
 	}
 	&:hover {
-		color: black;
+		color: white;
 	}
+
+
 `;
 export default GlobalStyle;
+
+

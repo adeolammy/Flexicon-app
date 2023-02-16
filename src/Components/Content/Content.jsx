@@ -28,7 +28,9 @@ export const Content = ({
 }) => {
 	const initial = { opacity: 0, y: 30 };
 	const animation = useAnimation();
-
+	 const handleClick = () => {
+    window.location = "/signup";
+  };
 	const { ref, inView } = useInView({ threshold: 0.2 });
 
 	useEffect(() => {
@@ -41,7 +43,7 @@ export const Content = ({
 	}, [inView, animation]);
 
 	return (
-		<Section inverse={inverse} ref={ref}>
+		<Section inverse={inverse} ref={ref} id="About" >
 			<Container>
 				<ContentRow reverse={reverse}>
 					<ContentColumn>
@@ -75,8 +77,12 @@ export const Content = ({
 								animate={animation}
 								inverse={inverse}
 								primary={primary}
+							    onClick={handleClick}
+								id="Resources"
 							>
+						
 								{buttonLabel}
+							
 							</ContentButton>
 						</TextWrapper>
 					</ContentColumn>
@@ -90,7 +96,7 @@ export const Content = ({
 								src={img}
 								alt={alt}
 								whileHover={{ rotate: 2, scale: 1.02 }}
-								transition={{ duration: 0.5 }}
+								transition={{ duration: 0.7 }}
 							/>
 						</ImgWrapper>
 					</ContentColumn>

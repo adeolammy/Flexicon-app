@@ -4,25 +4,28 @@ export const heroOne = {
 	topLine: {
 		text: 'Founded in 2018',
 	},
-	headline: "We've been in business for 4 years",
+	headline: "We've been in business for 5 years",
 	description: 'We are a soft development organization that specializes in offering a wide variety of services we construct business solutions, test hypotheses, and analyze the market effect of things.',
 	buttonLabel: 'Find More',
+
 	imgStart: 'start',
 	img: './assests/Deal.svg',
 	start: 'true',
+	
+	
 };
 
 export const heroTwo = {
 	reverse: false,
 	inverse: false,
 	topLine: {
-		text: 'Designed & Developed',
+		text: 'Learning Resources',
 	},
-	headline: 'The best practices',
-	description: 'Our clients have had the best experience working with us',
-	buttonLabel: 'View Project',
+	headline: 'Ours Resources',
+	description: 'Our clients have had the best experience learning through our resources',
+	buttonLabel: 'View Resources',
 
-	linkTo: '/more',
+	linkTo: 'signup',
 	imgStart: 'start',
 	img: './assests/Connection.svg',
 	start: 'true',
@@ -36,7 +39,7 @@ export const heroThree = {
 	},
 	headline: 'Why us? ',
 	description:
-		'Our 4 year experience have allowed us to use the most innovative technologies and methodologies',
+		'Our 5 year experience have allowed us to use the most innovative technologies and methodologies',
 	buttonLabel: 'View Project',
 
 	linkTo: '/download',

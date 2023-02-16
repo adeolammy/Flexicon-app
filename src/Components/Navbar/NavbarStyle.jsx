@@ -25,14 +25,16 @@ export const NavbarContainer = styled(Container)`
 `;
 
 export const NavLogo = styled(Link)`
-	color: #fff;
+	color: black;
 	justify-self: flex-start;
 	cursor: pointer;
+	font-weight:bold;
 	text-decoration: none;
 	font-size: 2rem;
 	display: flex;
 	align-items: center;
 	z-index: 50;
+
 `;
 
 export const NavIcon = styled.img`
@@ -91,14 +93,14 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled.span`
-	color: #fff;
+	color: lightgray;
 	display: flex;
 	align-items: center;
 	text-decoration: none;
 	padding: 0.5rem 1rem;
 	height: 100%;
 	&:hover {
-		color: #c8c9d8;
+		color: black;
 		transition: all 0.3s ease;
 	}
 	@media screen and (max-width: 960px) {

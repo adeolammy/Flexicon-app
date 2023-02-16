@@ -53,7 +53,7 @@ function Footer() {
 						</FooterLinkItems>
 					))}
 				</FooterGrid>
-				<FooterRights>Flexicon Tech © 2022</FooterRights>
+				<FooterRights>Flexicon Tech © 2023</FooterRights>
 			</FooterWrapper>
 		</Section>
 	);

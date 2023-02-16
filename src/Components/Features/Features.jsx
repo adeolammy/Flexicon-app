@@ -22,10 +22,10 @@ const Features = () => {
 	};
 
 	return (
-		<Section smPadding="50px 10px" position="relative" inverse id="about">
+		<Section smPadding="50px 10px" position="relative" inverse id="Mentorship">
 			<Container>
 				<FeatureTextWrapper>
-					<FeatureTitle>What We Offer</FeatureTitle>
+					<FeatureTitle>Mentorship Program</FeatureTitle>
 				</FeatureTextWrapper>
 				<FeatureWrapper>
 					{featuresData.map((el, index) => (

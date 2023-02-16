@@ -111,7 +111,8 @@ export const FooterLogo = styled(Link)`
 	justify-self: start;
 	cursor: pointer;
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 1.5rem;
+	font-weight:bold;
 	display: flex;
 	align-items: center;
 	margin-bottom: 16px;
@@ -119,7 +120,7 @@ export const FooterLogo = styled(Link)`
 
 export const SocialIcon = styled.img`
 	margin-right: 10px;
-	width: 40px;
+	width: 30px;
 `;
 
 export const FooterRights = styled.div`

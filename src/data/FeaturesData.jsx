@@ -1,47 +1,52 @@
 import React from 'react';
 
-import { BsFillShieldLockFill } from 'react-icons/bs';
-import { IoIosOptions } from 'react-icons/io';
-import { AiOutlineCloudUpload } from 'react-icons/ai';
-import { BiSupport, BiDollar } from 'react-icons/bi';
-import { GrHostMaintenance } from 'react-icons/gr';
-const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
+import { BsFillShieldLockFill ,BsClipboardData, BsCode, BsCloudUpload,BsPhone} from 'react-icons/bs';
+// import { IoIosOptions } from 'react-icons/io';
+// import { AiOutlineCloudUpload } from 'react-icons/ai';
+import {FaHandsHelping } from 'react-icons/fa';
+// import { GrVmMaintenance } from 'react-icons/gr';
+const iconStyle = (Icon) => <Icon size="2rem" color="white" backgroundColor='gray'/>;
 
 export const featuresData = [
 	{
-		name: 'Mobile Apps / Best Security',
-		description: ' Design and development of mobile applications --Native app development Cross-platform app development --Mobile backend development --Mobile apps UI/UX design --We offer the best data security to our clients, which makes us stand out',
+		name: 'Web Apps Training',
+		description: "Learn to build and deploy web applications with our training school. Master the latest technologies, tools and frameworks to create interactive and scalable web apps. Get hands-on experience and start a fulfilling career in the tech industry.",
 		icon: iconStyle(BsFillShieldLockFill),
 		imgClass: 'one',
 	},
 	{
-		name: 'Consulting services',
-		description: 'in the development of modern mobile solutions.  - Technical analysis and project evaluation  - Research and development for a pilot project - Development of the architecture of the future product  - We will check the product concept is viable, workable and usable.',
-		icon: iconStyle(IoIosOptions),
+		name: 'Mobile App Training',
+		description: "Unleash your creativity and develop mobile apps with our IT training school. Learn to build user-friendly, engaging and dynamic apps for iOS and Android. Get hands-on experience and launch a successful career in the fast-growing mobile app development industry.",
+		// icon: iconStyle(IoIosOptions),
+		icon: iconStyle(BsPhone),
 		imgClass: 'two',
 	},
 	{
-		name: 'Maintenance',
-		description: 'Our code is written in highest standards, which makes it highly sustainable',
-		icon: iconStyle(GrHostMaintenance),
+		name: 'Website Training',
+		description: "Build a strong foundation in web development with our Mentorship Program. Learn to design, code and launch dynamic websites using modern technologies and tools. Gain hands-on experience and jumpstart your career in the fast-growing tech industry.",
+		icon: iconStyle(BsCloudUpload),
 		imgClass: 'three',
 	},
 	{
-		name: '24/7 Support',
-		description: 'Our team is available at all times in case you need us',
-		icon: iconStyle(BiSupport),
+		name: 'Consulting services',
+		description: "Take your IT career to the next level with our mentorship program's consulting services. Get personalized guidance from experienced industry professionals. Benefit from one-on-one support, tailored advice, and unique networking opportunities to advance your career in the tech industry.",
+		icon: iconStyle(FaHandsHelping),
 		imgClass: 'four',
 	},
 	{
-		name: 'Price',
-		description: 'We offer the highest value/cost ratio',
-		icon: iconStyle(BiDollar),
+		name: 'Data Sciences',
+		description: "Learn data science by enrolling in our Mentorship Program. Learn how to analyze and understand large amounts of data, create prediction models, and solve real-world issues. With our extensive program, you may improve your abilities and boost your profession.",
+		icon: iconStyle(BsClipboardData),
+		// icon: iconStyle(BsCloudFill),
 		imgClass: 'five',
 	},
 	{
-		name: 'MVP for a Startup',
-		description: 'Development of the first version of a startup app  - Testing product hypotheses with real data  - Identify trends that can be used in production  - Prioritization important and identifying unclaimed features  - Collect user base before full-scale launch ',
-		icon: iconStyle(AiOutlineCloudUpload),
+		name: 'Project Management',
+		description: "Unlock your potential in project management with our training Institute. Master the art of leading complex projects, utilizing agile methodologies and tools, and delivering results. Build a successful career and make an impact in any industry.",
+		icon: iconStyle(BsCode),
+		// icon: iconStyle(FaHandsHelping),
+		// icon: iconStyle(BsCloudUpload),
 		imgClass: 'six',
 	},
+
 ];
