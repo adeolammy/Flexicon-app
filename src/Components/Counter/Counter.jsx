@@ -97,7 +97,6 @@ const Counter = ({ className, ...rest}) => {
 		</Fragment>
 	)
 }
-
 export default Counter
 
 
