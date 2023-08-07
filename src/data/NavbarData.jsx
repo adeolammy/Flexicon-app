@@ -21,7 +21,7 @@ export const data = [
 
 	{
 		to: '/signup',
-		text: 'Contact',
+		text: 'Membership',
 	},
 	{
 		to: '/',

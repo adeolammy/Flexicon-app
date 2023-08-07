@@ -4,7 +4,7 @@ export const heroOne = {
 	topLine: {
 		text: 'Founded in 2018',
 	},
-	headline: "We've been in business for 5 years",
+	headline: "We've been in business for more than 5 years",
 	description: 'We are a soft development organization that specializes in offering a wide variety of services we construct business solutions, test hypotheses, and analyze the market effect of things.',
 	buttonLabel: 'Find More',
 
@@ -39,7 +39,7 @@ export const heroThree = {
 	},
 	headline: 'Why us? ',
 	description:
-		'Our 5 year experience have allowed us to use the most innovative technologies and methodologies',
+		'Over 5 years of experiences have allowed us to use the most innovative technologies and methodologies',
 	buttonLabel: 'View Project',
 
 	linkTo: '/download',

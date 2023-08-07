@@ -119,8 +119,20 @@ export const FooterLogo = styled(Link)`
 `;
 
 export const SocialIcon = styled.img`
-	margin-right: 10px;
-	width: 30px;
+	margin-top: 3.5rem;
+	width: 18rem;
+	position:absolute;
+	display: block;
+	left: -1.5rem;
+	@media screen and (max-width: 700px) {
+	// position:absolute;
+		margin:auto 0;
+		display: flex;
+		align-items: center;
+		justify-items:center;
+		text-align: center;
+		// left: 12.5rem;
+	}
 `;
 
 export const FooterRights = styled.div`
@@ -141,15 +153,16 @@ export const FooterSocialIcon = styled.a`
 
 export const FooterAddress = styled.div`
 	color: white;
-	margin: 0.4rem auto 0.4rem;
+	margin: 2.5rem auto 0.4rem;
 	max-width: 20rem;
 	font-weight: 500;
 	font-size: 0.875rem;
 	line-height: 2;
 	text-align: center;
-	@media screen and (min-width: 1000px) {
-		margin-left: 0px;
-		text-align: left;
-		margin-right: 1rem;
-	}
+	// @media screen and (min-width: 1000px) {
+	// 	margin-left: 0px;
+	// 	text-align: left;
+	// 	margin-right: 1rem;
+	// 	// color: red;
+	// }
 `;

@@ -47,8 +47,8 @@ const Navbar = () => {
 			<Nav>
 				<NavbarContainer>
 					<NavLogo to="/">
-						<NavIcon src="./assests/logo.png" alt="logo" />
-						Flexicon
+						<NavIcon src="./assests/Tech_logo.png" alt="logo" />
+						{/* Flexicon */}
 					</NavLogo>
 					<MobileIcon onClick={handleClick}>
 						{show ? <FaTimes /> : <CgMenuRight />}

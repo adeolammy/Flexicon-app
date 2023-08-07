@@ -22,14 +22,14 @@ function Footer() {
 				<FooterGrid justify="space-between">
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
-							<SocialIcon src="./assests/logo.png" />
-							Flexicon Tech
+							<SocialIcon src="./assests/logo2.png" />
+							{/* Flexicon Tech */}
 						</FooterLogo>
 						<FooterAddress>
-							324 Funsho William Avenue, Ojuelegba Lagos
+							57 Funsho Williams Avenue, Ojuelegba Lagos
 						</FooterAddress>
 
-						<Row align="center" margin="auto  0 0 0" gap="1rem">
+						<Row align="center" margin="auto  0 0 0.6rem" gap="1.2rem">
 							{footerSocialData.map((social, index) => (
 								<FooterSocialIcon
 									key={index}
@@ -53,7 +53,7 @@ function Footer() {
 						</FooterLinkItems>
 					))}
 				</FooterGrid>
-				<FooterRights>Flexicon Tech © 2023</FooterRights>
+				<FooterRights>Flexicon Technology © 2023</FooterRights>
 			</FooterWrapper>
 		</Section>
 	);
